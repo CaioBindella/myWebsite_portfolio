@@ -1,0 +1,39 @@
+.Header {
+    position: relative; /* Adicione position: relative para poder posicionar o pseudo-elemento */
+    height: 60vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Header::before {
+    content: "";
+    background-image: url("../../assets/summit.svg");
+    opacity: 0.6; /* Define a opacidade da imagem de fundo */
+    position: absolute; /* Posicione o pseudo-elemento em relação ao elemento pai */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Coloque o pseudo-elemento atrás do conteúdo */
+}
+
+
+.name{
+    font-size: 70px;
+    color: black;
+}
+
+.myphoto{
+    width: 200px;
+    height: 200px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
