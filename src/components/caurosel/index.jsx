@@ -1,5 +1,8 @@
 import React from "react";
 import teste from "../../assets/summit.svg"
+import serraBanner from "../../assets/Serrajr.svg"
+import nanofabBanner from "../../assets/nanofab.svg"
+import cervejelasBanner from "../../assets/cervejelas.svg"
 import "./style.css"
 
 export default function Caurosel(){
@@ -13,23 +16,23 @@ export default function Caurosel(){
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src={teste} class="d-block w-100" alt="..."/>
+                <img src={serraBanner} class="d-block w-100" alt="..."/>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>First slide label</h5>
+                    <h1>Site Serra Jr. Engenharia</h1>
                     <p>Some representative placeholder content for the first slide.</p>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src={teste} class="d-block w-100" alt="..."/>
+                <img src={nanofabBanner} class="d-block w-100" alt="..."/>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Second slide label</h5>
+                    <h1>Site Laboratório Nanofab</h1>
                     <p>Some representative placeholder content for the second slide.</p>
                 </div>
                 </div>
                 <div class="carousel-item">
-                <img src={teste} class="d-block w-100" alt="..."/>
+                <img src={cervejelasBanner} class="d-block w-100" alt="..."/>
                 <div class="carousel-caption d-none d-md-block">
-                    <h5>Third slide label</h5>
+                    <h1>Site Evento Cervejelas</h1>
                     <p>Some representative placeholder content for the third slide.</p>
                 </div>
                 </div>

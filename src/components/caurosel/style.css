@@ -1,4 +1,5 @@
 .carrosel{
-    width: 100vw;
-    height: 30vh;
+    width: 100%;
+    margin: 0px;
+    /* height: 20vh; */
 }

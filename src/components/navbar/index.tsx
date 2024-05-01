@@ -6,7 +6,7 @@ export default function NavBar(){
         <n.Container>
             <n.Options>Experiência</n.Options>
             <n.Options>Sobre</n.Options>
-            <n.Options>Projetos</n.Options>
+            <n.Options>Portifólio</n.Options>
         </n.Container>
     )
 }
