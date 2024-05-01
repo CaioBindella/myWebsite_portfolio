@@ -1,7 +1,7 @@
 .Header {
     position: relative; /* Adicione position: relative para poder posicionar o pseudo-elemento */
     height: 60vh;
-    width: 100vw;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;

@@ -11,16 +11,12 @@ export const Container = styled.div`
 `;
 
 export const Title = styled.h1`
-    font-size: 80px;
+    font-size: 70px;
     margin-top: 3%;
     color: black;
 `;
 
 export const Content = styled.div`
-    width: 70%;
-    display: grid;
-    gap: 10px;
-    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
-    margin-bottom: 3%;
-    margin-top: 3%;
+    display: flex;
+    margin: 3%;
 `;
