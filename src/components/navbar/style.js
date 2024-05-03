@@ -13,4 +13,8 @@ export const Options = styled.p`
     margin: 10px;
     cursor: pointer;
     font-size: 20px;
+
+    &:hover{
+        color: #D9D9D9;
+    }
 `;

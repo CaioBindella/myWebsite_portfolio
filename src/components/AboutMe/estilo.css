@@ -1,0 +1,52 @@
+.txt-animado{
+    font-size: 100px;
+    font-weight: bolder;
+    margin-top: 3%;
+}
+
+.txt-animado span{
+    position: relative;
+}
+
+.txt-animado span::before{
+    content: "";
+    color: black;
+    animation: palavra 20s infinite;
+}
+
+.txt-animado span::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    border-left: 2px solid black;
+    right: -10px;
+    opacity: 1;
+    animation: cursor .8s infinite, digita 20s steps(15) infinite;
+    width: calc(100% + 18px);
+    background-color: #fff;
+}
+
+@keyframes digita {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95%{
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85%{
+        width: calc(100% + 18px);
+    }
+}
+
+@keyframes cursor {
+    0%{
+        opacity: 0;
+    }
+}
+
+@keyframes palavra{
+    0%,50%{
+        content: "About Me/>";
+    }
+    51%,100%{
+        content: "Sobre Mim/>";
+    }
+}
+
