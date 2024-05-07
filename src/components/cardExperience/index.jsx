@@ -4,7 +4,7 @@ import "./style.css"
 
 export default function CardExperience(props){
     return(
-        <div className="cardExperience">
+        <div className="cardExperience" id="experience">
             <div className="card mb-3" style={{maxWidth: "540px"}}>
                 <div className="row g-0">
                     <div className="col-md-4">

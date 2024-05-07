@@ -5,14 +5,15 @@ export const Container = styled.div`
     background-color: #fff;
     border-radius: 30px;
     margin-bottom: 20px;
-    width: 20vw;
     justify-content: space-around;
 `;
 
-export const Options = styled.p`
-    margin: 10px;
+export const Options = styled.a`
+    margin: 10px 20px 10px 20px;
     cursor: pointer;
     font-size: 20px;
+    text-decoration: none;
+    color: black;
 
     &:hover{
         color: #D9D9D9;

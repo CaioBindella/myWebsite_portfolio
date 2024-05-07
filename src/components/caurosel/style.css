@@ -1,5 +1,9 @@
 .carrosel{
     width: 100%;
     margin: 0px;
-    /* height: 20vh; */
+}
+
+.TextPortifolio{
+    text-align: center;
+    font-size: 60px;
 }

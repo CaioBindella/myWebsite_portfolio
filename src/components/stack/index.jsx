@@ -16,7 +16,7 @@ import reactnormal from "../../assets/stack/react.svg"
 export default function Stack(){
     return(
         <S.Container>
-            <S.Title>{`<Minha Stack de Atuação/>`}</S.Title>
+            <S.Title>{`<Stack de Atuação/>`}</S.Title>
             <S.Content>
                 <img src={js} alt="" />
                 <img src={mongo} alt="" />
