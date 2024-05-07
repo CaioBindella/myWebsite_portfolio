@@ -8,7 +8,9 @@ export default function CardExperience(props){
             <div className="card mb-3" style={{maxWidth: "540px"}}>
                 <div className="row g-0">
                     <div className="col-md-4">
-                        <img src={props.imagee} className="img-fluid rounded-start w-10 h-10" alt="..."/>
+                        <div className="image-exp-card">
+                            <img src={props.imagee} className="img-fluid rounded-start w-10 h-10" alt="..."/>
+                        </div>
                     </div>
                     <div className="col-md-8">
                         <div className="card-body">

@@ -32,4 +32,9 @@ export const Images = styled.img`
     width: 30px;
     height: 30px;
     margin: 14px;
+
+    @media (max-width: 390px) {
+        width: 25px;
+        height: 25px;
+    }
 `;

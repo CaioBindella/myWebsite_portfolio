@@ -50,3 +50,10 @@
     }
 }
 
+
+@media (max-width: 390px) {
+
+    .txt-animado{
+        font-size: 30px;
+    }
+}

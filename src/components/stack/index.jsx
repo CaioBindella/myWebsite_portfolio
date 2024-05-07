@@ -1,5 +1,6 @@
 import React from "react";
 import * as S from "./style"
+import "./style.css"
 
 //images
 import express from "../../assets/stack/express.svg"
@@ -18,16 +19,16 @@ export default function Stack(){
         <S.Container>
             <S.Title>{`<Stack de Atuação/>`}</S.Title>
             <S.Content>
-                <img src={js} alt="" />
-                <img src={mongo} alt="" />
-                <img src={mysql} alt="" />
-                <img src={Next} alt="" />
-                <img src={node} alt="" />
-                <img src={reactnormal} alt="" />
-                <img src={reactnative} alt="" />
-                <img src={styled} alt="" />
-                <img src={tail} alt="" />
-                <img src={express} alt="" />
+                <img src={js} alt="" className="images-stack"/>
+                <img src={mongo} alt="" className="images-stack"/>
+                <img src={mysql} alt="" className="images-stack"/>
+                <img src={Next} alt="" className="images-stack"/>
+                <img src={node} alt="" className="images-stack"/>
+                <img src={reactnormal} alt="" className="images-stack"/>
+                <img src={reactnative} alt="" className="images-stack"/>
+                <img src={styled} alt="" className="images-stack"/>
+                <img src={tail} alt="" className="images-stack"/>
+                <img src={express} alt="" className="images-stack"/>
             </S.Content>
         </S.Container>
     )

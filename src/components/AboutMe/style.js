@@ -20,4 +20,9 @@ export const description = styled.p`
     width: 60%;
     font-size: 25px;
     text-align: justify;
+
+    @media (max-width: 390px) {
+        font-size: 15px;
+        width: 70%;
+    }
 `;

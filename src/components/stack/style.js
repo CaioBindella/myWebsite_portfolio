@@ -14,9 +14,18 @@ export const Title = styled.h1`
     font-size: 70px;
     margin-top: 3%;
     color: black;
+
+    @media (max-width: 390px) {
+        font-size: 30px;
+    }
 `;
 
 export const Content = styled.div`
     display: flex;
     margin: 3%;
+
+
+    @media (max-width: 390px){ 
+        flex-direction: column;
+    }
 `;

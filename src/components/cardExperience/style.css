@@ -3,4 +3,19 @@
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+@media (max-width: 390px) {
+    .cardExperience {
+        width: 50%; 
+    }
+
+    .image-exp-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100px;
+        height: 100px;
+    }
 }

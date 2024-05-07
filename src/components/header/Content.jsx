@@ -14,7 +14,7 @@ export default function ContentHeader(){
         <div className="cont">
             <img className="myphoto" src={selfie} alt="my photo" />
             <h1 className="name">Caio Bindella</h1>
-            <h3 style={{color: "#000000"}}>Junior Software Engineer - Nova Friburgo, RJ</h3>
+            <h3 className="subname" style={{color: "#000000"}}>Junior Software Engineer - Nova Friburgo, RJ</h3>
             <Fa.TopSide>
                 <a href="https://contate.me/caiobindella" target="_blank" rel="noopener noreferrer">
                     <Fa.Images src={wpp} alt="" />
