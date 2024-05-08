@@ -1,5 +1,23 @@
 @media (max-width: 390px) {
     .images-stack{
+        width: 120px;
+    }
+}
+
+@media (min-width: 390px) and (max-width: 600px){
+    .images-stack{
         width: 130px;
     }
 }
+
+@media (min-width: 2000px) and (max-width: 3000px) {
+    .images-stack{
+        width: 180px;
+    }
+}
+
+@media (min-width: 3000px) and (max-width: 4000px) {
+    .images-stack{
+        width: 200px;
+    }
+} 

@@ -25,4 +25,30 @@ export const description = styled.p`
         font-size: 15px;
         width: 70%;
     }
+
+    @media (min-width: 390px) and (max-width: 600px){
+        font-size: 18px;
+        width: 70%;
+    }
+
+    @media (min-width: 600px) and (max-width: 1000px){
+        font-size: 22px;
+        width: 85%;
+    }
+
+    @media (min-width: 1000px) and (max-width: 1440px) {
+        font-size: 25px;
+        width: 85%;
+    }
+
+
+    @media (min-width: 2000px) and (max-width: 3000px) {
+        font-size: 45px;
+        width: 85%;
+    }
+
+    @media (min-width: 3000px) and (max-width: 4000px) {
+        font-size: 65px;
+        width: 85%;
+    }
 `;

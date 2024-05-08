@@ -57,3 +57,29 @@
         font-size: 30px;
     }
 }
+
+
+@media (min-width: 390px) and (max-width: 600px){
+    .txt-animado{
+        font-size: 45px;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 1000px){
+    .txt-animado{
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1440px) {
+    .txt-animado{
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 3000px) and (max-width: 4000px) {
+    .txt-animado{
+        font-size: 140px;
+    }
+}

@@ -22,6 +22,36 @@ export const Title = styled.h1`
         width: 80%;
         text-align: center;
     }
+
+    @media (min-width: 390px) and (max-width: 600px){
+        font-size: 45px;
+        width: 80%;
+        text-align: center;
+    }
+
+    @media (min-width: 600px) and (max-width: 1000px){
+        font-size: 60px;
+        width: 80%;
+        text-align: center;
+    }
+
+    @media (min-width: 1000px) and (max-width: 1440px) {
+        font-size: 70px;
+        width: 80%;
+        text-align: center;
+    }   
+
+    @media (min-width: 2000px) and (max-width: 3000px) {
+        font-size: 70px;
+        width: 80%;
+        text-align: center;
+    }
+
+    @media (min-width: 3000px) and (max-width: 4000px) {
+        font-size: 120px;
+        width: 100%;
+        text-align: center;
+    } 
 `;
 
 export const Content = styled.div`
@@ -35,10 +65,33 @@ export const Content = styled.div`
     @media (max-width: 390px) {
         display: flex;
         flex-direction: column;
-        width: 600px;
+        width: 100%;
         justify-content: center;
         align-items: center;
         gap: 0px;
         grid-template-columns: 0%;
     }
+
+
+    @media (min-width: 390px) and (max-width: 600px){
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        gap: 0px;
+        grid-template-columns: 0%;
+    }
+
+    @media (min-width: 2000px) and (max-width: 3000px) {
+        width: 50%;
+        flex-wrap: wrap;
+    }
+
+    @media (min-width: 3000px) and (max-width: 4000px) {
+        width: 100%;
+        flex-wrap: wrap;
+        gap: 70px;
+        grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    } 
 `;

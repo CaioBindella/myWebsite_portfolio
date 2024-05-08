@@ -14,3 +14,52 @@
         font-size: 30px;
     }
 }
+
+@media (min-width: 390px) and (max-width: 600px){
+    .TextPortifolio{
+        font-size: 45px;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 1000px){
+    .TextPortifolio{
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1440px) {
+    .TextPortifolio {
+        font-size: 70px;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 3000px) {
+    .TextPortifolio {
+        font-size: 90px;
+    }
+
+    .h1-carrosel{
+        font-size: 100px;
+    }
+
+    .text-carrosel{
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 3000px) and (max-width: 4000px) {
+    .TextPortifolio {
+        font-size: 120px;
+    }
+} 
+
+@media (min-width: 3000px) and (max-width: 4000px) {
+    .h1-carrosel{
+        font-size: 120px;
+    }
+
+    .text-carrosel{
+        font-size: 80px;
+    }
+} 

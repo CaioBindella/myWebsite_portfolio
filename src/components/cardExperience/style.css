@@ -3,19 +3,122 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 @media (max-width: 390px) {
     .cardExperience {
-        width: 50%; 
+        width: 80%; 
     }
 
     .image-exp-card{
+        width: 140px;
+        height: 140px;
+        padding: 10px;
+    }
+
+    .col-md-4{
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+}
+
+
+@media (min-width: 390px) and (max-width: 600px){
+    .cardExperience {
+        width: 80%; 
+    }
+
+    .image-exp-card{
+        padding: 10px;
         width: 100px;
         height: 100px;
     }
+
+    .col-md-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }
+
+@media (min-width: 600px) and (max-width: 1000px){
+    .image-exp-card{
+        padding: 10px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .col-md-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1440px) {
+    .image-exp-card{
+        padding: 10px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .col-md-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+} 
+
+@media (min-width: 2000px) and (max-width: 3000px) {
+    .image-exp-card{
+        padding: 10px;
+        width: 250px;
+        height: 250px;
+    }
+
+    .col-md-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-text{
+        font-size: 30px;
+    }
+
+    .card-text{
+        font-size: 30px;
+    }
+
+    .card-title{
+        font-size: 40px;
+    }
+}
+
+
+@media (min-width: 3000px) and (max-width: 4000px) {
+    .image-exp-card{
+        padding: 10px;
+        width: 300px;
+        height: 300px;
+    }
+
+    .col-md-4{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .card-text{
+        font-size: 40px;
+    }
+
+    .card-text{
+        font-size: 40px;
+    }
+
+    .card-title{
+        font-size: 50px;
+    }
+} 

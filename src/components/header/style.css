@@ -57,3 +57,47 @@
         text-align: center;
     }
 }
+
+
+@media (min-width: 390px) and (max-width: 600px) {
+
+    .name{
+        font-size: 40px;
+    }
+    .subname{
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+
+@media (min-width: 1000px) and (max-width: 1440px) {
+
+    .name{
+        font-size: 60px;
+    }
+    .subname{
+        font-size: 28px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 2000px) and (max-width: 3000px) {
+    .name{
+        font-size: 90px;
+    }
+    .subname{
+        font-size: 38px;
+        text-align: center;
+    }
+}
+
+@media (min-width: 3000px) and (max-width: 4000px) {
+    .name{
+        font-size: 120px;
+    }
+    .subname{
+        font-size: 68px;
+        text-align: center;
+    }
+}

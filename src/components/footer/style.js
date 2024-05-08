@@ -26,6 +26,19 @@ export const DownSide = styled.div`
 
 export const Text = styled.span`
     font-weight: bold;
+    padding: 10px;
+
+    @media (min-width: 600px) and (max-width: 1000px){
+        font-size: 20px;
+    }
+
+    @media (min-width: 2000px) and (max-width: 3000px) {
+        font-size: 25px;
+    }
+    
+    @media (min-width: 3000px) and (max-width: 4000px) {
+        font-size: 50px;
+    } 
 `;
 
 export const Images = styled.img`
@@ -37,4 +50,20 @@ export const Images = styled.img`
         width: 25px;
         height: 25px;
     }
+
+    @media (min-width: 600px) and (max-width: 1000px){
+        width: 42px;
+        height: 42px;
+    }
+
+    @media (min-width: 2000px) and (max-width: 3000px) {
+        width: 52px;
+        height: 52px;
+    }
+
+    @media (min-width: 3000px) and (max-width: 4000px) {
+        width: 72px;
+        height: 72px;  
+        margin: 20px;
+    } 
 `;
